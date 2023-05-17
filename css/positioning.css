@@ -1,3 +1,22 @@
 .container {
   width: 1200px;
 }
+menu {
+  display: flex;
+  gap: 46px;
+  margin: 32px 0px 32px 93px;
+}
+.logo-index-position {
+  display: flex;
+  align-items: center;
+}
+.nav-position {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+  margin: 32px 0px 32px 371px;
+}
+.position-info {
+  display: flex;
+  justify-content: center;
+}
