@@ -11,7 +11,6 @@ menu {
   display: flex;
   align-items: center;
   width: 1200px;
-  justify-content: space-between;
 }
 
 .nav-position {
@@ -24,13 +23,23 @@ menu {
   display: flex;
   justify-content: center;
 }
-ul {
+.port-fotos {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   padding: 0px;
   list-style: none;
+  justify-content: center;
 }
+.button-list-port {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0px;
+  list-style: none;
+  justify-content: center;
+}
+
 .foto-list {
   flex-direction: column;
   margin: unset;
@@ -44,6 +53,7 @@ ul {
 .second-baby {
   display: flex;
   gap: 50px;
+  margin-left: 364px;
 }
 img {
   width: auto;
@@ -52,4 +62,11 @@ img {
 }
 figure {
   border: 1px solid #eeeeee;
+}
+header {
+  border: 1px solid #ececec;
+  margin-bottom: 94px;
+}
+main {
+  margin-bottom: 94px;
 }
