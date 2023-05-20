@@ -1,6 +1,6 @@
 .container {
   width: 1200px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 menu {
   display: flex;
@@ -30,6 +30,7 @@ menu {
   padding: 0px;
   list-style: none;
   justify-content: center;
+  margin: 0;
 }
 .button-list-port {
   display: flex;
@@ -42,12 +43,12 @@ menu {
 
 .foto-list {
   flex-direction: column;
-  margin: unset;
+
   flex-basis: calc((100% - 60px) / 3);
 }
 .first-baby {
   display: flex;
-  gap: 93px;
+
   align-items: center;
 }
 .second-baby {
@@ -62,11 +63,22 @@ img {
 }
 figure {
   border: 1px solid #eeeeee;
+  margin: 0px;
+  width: 370px;
 }
 header {
-  border: 1px solid #ececec;
-  margin-bottom: 94px;
+  border-bottom: 1px solid #ececec;
+  margin: auto;
+  width: 1600px;
+  align-items: center;
 }
 main {
   margin-bottom: 94px;
+  margin-top: 94px;
+}
+.portfolio-bottom-logo {
+  padding: 60px 1040px 20px 15px;
+}
+address {
+  gap: 9px;
 }

@@ -18,6 +18,7 @@ body {
   font-weight: 500;
   line-height: 1.6;
   text-decoration: none;
+  font-size: 14px;
 }
 .logo {
   font-weight: 700;
@@ -34,24 +35,29 @@ body {
   font-family: "Raleway";
   line-height: 1.2;
   margin-top: 24px;
+  font-size: 26px;
 }
 .logo-studio {
   color: var(--background-color);
   font: "Raleway";
   font-weight: 700;
   line-height: 1.2;
+  font-size: 26px;
 }
 .color-adress {
   color: var(--background-color);
 
-  size: 14px;
+  font-size: 14px;
   line-height: 1.7;
+  padding: 20px 938px 60px 15px;
 }
 
 footer {
   background-color: #2f303a;
   width: 1600px;
   height: 252px;
+  display: flex;
+  margin: auto;
 }
 
 a {
@@ -64,6 +70,7 @@ a {
   font-weight: 700;
   font-family: "Raleway";
   margin-top: 24px;
+  font-size: 26px;
 }
 .menu-links {
   font-weight: 500;
@@ -121,6 +128,8 @@ p1 {
   /* identical to box height, or 200% */
 
   letter-spacing: 0.06em;
+  text-align: center;
+  padding: 20px 24px 4px 24px;
 }
 p2 {
   font-size: 16px;
@@ -130,6 +139,8 @@ p2 {
   letter-spacing: 0.03em;
 
   color: var(--gray-color);
+  text-align: center;
+  padding: 4px 24px 20px 24px;
 }
 p3 {
   font-weight: 500;
