@@ -2,23 +2,21 @@
   width: 1200px;
   margin: 0px auto;
 }
+.container-index {
+  width: 1600px;
+  margin: 0px auto;
+}
 menu {
   display: flex;
   gap: 46px;
   margin: 32px 0px 32px 93px;
 }
-.logo-index-position {
+.logo-portfolio-position {
   display: flex;
   align-items: center;
   width: 1200px;
 }
 
-.nav-position {
-  display: flex;
-  justify-content: flex-end;
-  gap: 50px;
-  margin: 32px 0px 32px 371px;
-}
 .position-info {
   display: flex;
   justify-content: center;
@@ -48,13 +46,22 @@ menu {
 }
 .first-baby {
   display: flex;
-
   align-items: center;
 }
 .second-baby {
   display: flex;
   gap: 50px;
   margin-left: 364px;
+}
+.first-baby-index {
+  display: flex;
+  align-items: center;
+  padding-left: 215px;
+}
+.second-baby-index {
+  display: flex;
+  gap: 50px;
+  margin-left: 371px;
 }
 img {
   width: auto;
@@ -81,4 +88,26 @@ main {
 }
 address {
   gap: 9px;
+}
+.lorem-list {
+  display: flex;
+  column-gap: 30px;
+  row-gap: 10px;
+  width: 1170px;
+  justify-content: space-between;
+}
+.index-lorem {
+  max-width: 1170px;
+  margin: 94px 215px 94px 215px;
+}
+.service {
+  padding: 30px 700px 200px 700px;
+}
+.logo-index-position {
+  display: flex;
+  align-items: center;
+  width: 1600px;
+  height: 80px;
+}
+.index-what {
 }
