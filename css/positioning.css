@@ -84,8 +84,8 @@ address {
 }
 .lorem-list {
   display: flex;
-
   row-gap: 10px;
+  padding: 0;
 }
 .index-lorem {
   max-width: 1170px;
@@ -154,4 +154,8 @@ address {
   margin-top: 94px;
   margin-left: 0;
   margin-right: 0;
+}
+p {
+  font-size: 14px;
+  line-height: 1.7;
 }
