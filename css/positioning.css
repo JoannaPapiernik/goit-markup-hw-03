@@ -1,11 +1,8 @@
 .container {
   width: 1200px;
-  margin: 0px auto;
+  margin: 0 auto;
 }
-.container-index {
-  width: 1600px;
-  margin: 0px auto;
-}
+
 menu {
   display: flex;
   gap: 46px;
@@ -17,10 +14,6 @@ menu {
   width: 1200px;
 }
 
-.position-info {
-  display: flex;
-  justify-content: center;
-}
 .port-fotos {
   display: flex;
   flex-wrap: wrap;
@@ -56,7 +49,7 @@ menu {
 .first-baby-index {
   display: flex;
   align-items: center;
-  padding-left: 215px;
+  margin-left: 15px;
 }
 .second-baby-index {
   display: flex;
@@ -91,17 +84,15 @@ address {
 }
 .lorem-list {
   display: flex;
-  column-gap: 30px;
+
   row-gap: 10px;
-  width: 1170px;
-  justify-content: space-between;
 }
 .index-lorem {
   max-width: 1170px;
-  margin: 94px 215px 94px 215px;
+  margin: 94px 15px 94px 15px;
 }
 .service {
-  padding: 30px 700px 200px 700px;
+  padding: 30px 500px 200px 500px;
 }
 .logo-index-position {
   display: flex;
@@ -110,4 +101,24 @@ address {
   height: 80px;
 }
 .index-what {
+  margin: 94px 15px 94px 15px;
+}
+.index-title-button {
+  max-width: 1600px;
+}
+.what-foto {
+  display: flex;
+  column-gap: 30px;
+  margin: auto 0;
+}
+.team {
+  background-color: #f5f4fa;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+}
+.team-fotos {
+  display: inline-flex;
+  gap: 30px;
 }
