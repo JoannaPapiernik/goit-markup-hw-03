@@ -92,7 +92,7 @@ address {
   margin: 94px 15px 94px 15px;
 }
 .service {
-  padding: 30px 500px 200px 500px;
+  padding: 30px 700px 200px 700px;
 }
 .logo-index-position {
   display: flex;
@@ -117,8 +117,41 @@ address {
   height: 648px;
   left: 0px;
   top: 1449px;
+  margin: 0 auto;
 }
 .team-fotos {
   display: inline-flex;
-  gap: 30px;
+  column-gap: 30px;
+  margin: 0 auto;
+
+  padding: 0px 215px 94px 215px;
+}
+.team-description {
+  padding: 94px 695px 50px 695px;
+  white-space: nowrap;
+  margin: 0 auto;
+}
+.index-foto-list {
+  background: var(--background-color);
+  width: 270px;
+  height: 368px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.johndoe-foto {
+  max-width: 270px;
+  max-height: 260px;
+}
+.johndoe-description {
+  background: var(--background-color);
+  white-space: nowrap;
+  row-gap: 10px;
+}
+.main-index {
+  margin-bottom: 0;
+  margin-top: 94px;
+  margin-left: 0;
+  margin-right: 0;
 }

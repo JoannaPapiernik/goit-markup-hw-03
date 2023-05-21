@@ -150,6 +150,9 @@ p3 {
 
   text-align: center;
   letter-spacing: 0.03em;
+  display: flex;
+  padding: 30px 99px 10px 99px;
+  display: inline-block;
 }
 p4 {
   font-size: 16px;
@@ -160,6 +163,9 @@ p4 {
   letter-spacing: 0.03em;
 
   color: var(--gray-color);
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 .email-underline {
   text-decoration: underline;
@@ -277,6 +283,7 @@ h3 {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--font-color);
 }
 .section-list {
   font-weight: 400;
