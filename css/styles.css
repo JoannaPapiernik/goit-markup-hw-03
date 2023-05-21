@@ -20,6 +20,24 @@ body {
   text-decoration: none;
   font-size: 14px;
 }
+.active-button-one:hover,
+.active-button-one:focus {
+  background: var(--brand-blue);
+  color: var(--background-color);
+  cursor: pointer;
+  line-height: 1.6;
+  font-weight: 500;
+  padding: 6px 22px 6px 22px;
+  border: none;
+}
+.active-button-one {
+  font-weight: 500;
+  line-height: 1.6;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 6px 22px 6px 22px;
+  border: none;
+}
 .logo {
   font-weight: 700;
   font-size: 26px;
